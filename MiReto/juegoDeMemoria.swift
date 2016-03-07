@@ -19,24 +19,27 @@
 import UIKit
 
 
+
 for n in 0...100 {
     
     if n % 5 == 0 {
         
-        print ("\(n)\t  -Bingo!!!")
-        
-    }else
-        if n % 2 == 0 {
-            
-            print ( "\(n)\t  Par!!!")
-            
-        }else {
-            
-            print ("\(n)\t  Impar!!!")
-            
+        print ("\(n)\t * Bingo!!!")
     }
+    
+    if n % 2 == 0 {
+        
+        print ("\(n)\t par!!!")
+    }
+        
+    else {
+        
+        print ("\(n)\t impar!!!")
+    }
+    
+    
     if n >= 30 && n <= 40 {
         
-        print ("\(n)\t  - Viva Swift!!!")
+        print ("\(n)\t * Viva Swift!!!")
     }
 }
