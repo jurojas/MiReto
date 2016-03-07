@@ -23,20 +23,20 @@ for n in 0...100 {
     
     if n % 5 == 0 {
         
-        print ("\(n) Bingo!!!")
+        print ("\(n)\t  -Bingo!!!")
         
-    }
-    if n % 2 == 0 {
-        
-        print ( "\(n) Par!!!")
-        
-    }else {
-        
-        print ("\(n)Impar!!!")
-        
+    }else
+        if n % 2 == 0 {
+            
+            print ( "\(n)\t  Par!!!")
+            
+        }else {
+            
+            print ("\(n)\t  Impar!!!")
+            
     }
     if n >= 30 && n <= 40 {
         
-        print ("\(n) Viva Swift!!!")
+        print ("\(n)\t  - Viva Swift!!!")
     }
 }
