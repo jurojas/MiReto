@@ -7,13 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		406989CB1C8CFD4900C79508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406989CA1C8CFD4900C79508 /* AppDelegate.swift */; };
-		406989CD1C8CFD4900C79508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406989CC1C8CFD4900C79508 /* ViewController.swift */; };
-		406989D01C8CFD4900C79508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406989CE1C8CFD4900C79508 /* Main.storyboard */; };
-		406989D21C8CFD4900C79508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406989D11C8CFD4900C79508 /* Assets.xcassets */; };
-		406989D51C8CFD4900C79508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406989D31C8CFD4900C79508 /* LaunchScreen.storyboard */; };
-		406989E01C8CFD4900C79508 /* MiRetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406989DF1C8CFD4900C79508 /* MiRetoTests.swift */; };
-		406989EB1C8CFD4900C79508 /* MiRetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406989EA1C8CFD4900C79508 /* MiRetoUITests.swift */; };
+		406989CB1C8CFD4900C79508 /* juegoDeMemoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406989CA1C8CFD4900C79508 /* juegoDeMemoria.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		406989C71C8CFD4900C79508 /* MiReto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiReto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		406989CA1C8CFD4900C79508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		406989CC1C8CFD4900C79508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		406989CF1C8CFD4900C79508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		406989D11C8CFD4900C79508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		406989D41C8CFD4900C79508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		406989D61C8CFD4900C79508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		406989DB1C8CFD4900C79508 /* MiRetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiRetoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		406989DF1C8CFD4900C79508 /* MiRetoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiRetoTests.swift; sourceTree = "<group>"; };
-		406989E11C8CFD4900C79508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		406989E61C8CFD4900C79508 /* MiRetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiRetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		406989EA1C8CFD4900C79508 /* MiRetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiRetoUITests.swift; sourceTree = "<group>"; };
-		406989EC1C8CFD4900C79508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406989C71C8CFD4900C79508 /* MiReto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MiReto.app; path = "/Users/juanantoniorojashinojosa/Documents/cursoios/Segunda Semana/MiReto/build/Debug-iphoneos/MiReto.app"; sourceTree = "<absolute>"; };
+		406989CA1C8CFD4900C79508 /* juegoDeMemoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegoDeMemoria.swift; sourceTree = "<group>"; };
+		406989DB1C8CFD4900C79508 /* MiRetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MiRetoTests.xctest; path = "/Users/juanantoniorojashinojosa/Documents/cursoios/Segunda Semana/MiReto/build/Debug-iphoneos/MiRetoTests.xctest"; sourceTree = "<absolute>"; };
+		406989E61C8CFD4900C79508 /* MiRetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MiRetoUITests.xctest; path = "/Users/juanantoniorojashinojosa/Documents/cursoios/Segunda Semana/MiReto/build/Debug-iphoneos/MiRetoUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,51 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				406989C91C8CFD4900C79508 /* MiReto */,
-				406989DE1C8CFD4900C79508 /* MiRetoTests */,
-				406989E91C8CFD4900C79508 /* MiRetoUITests */,
-				406989C81C8CFD4900C79508 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		406989C81C8CFD4900C79508 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				406989C71C8CFD4900C79508 /* MiReto.app */,
-				406989DB1C8CFD4900C79508 /* MiRetoTests.xctest */,
-				406989E61C8CFD4900C79508 /* MiRetoUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		406989C91C8CFD4900C79508 /* MiReto */ = {
 			isa = PBXGroup;
 			children = (
-				406989CA1C8CFD4900C79508 /* AppDelegate.swift */,
-				406989CC1C8CFD4900C79508 /* ViewController.swift */,
-				406989CE1C8CFD4900C79508 /* Main.storyboard */,
-				406989D11C8CFD4900C79508 /* Assets.xcassets */,
-				406989D31C8CFD4900C79508 /* LaunchScreen.storyboard */,
-				406989D61C8CFD4900C79508 /* Info.plist */,
+				406989CA1C8CFD4900C79508 /* juegoDeMemoria.swift */,
 			);
 			path = MiReto;
-			sourceTree = "<group>";
-		};
-		406989DE1C8CFD4900C79508 /* MiRetoTests */ = {
-			isa = PBXGroup;
-			children = (
-				406989DF1C8CFD4900C79508 /* MiRetoTests.swift */,
-				406989E11C8CFD4900C79508 /* Info.plist */,
-			);
-			path = MiRetoTests;
-			sourceTree = "<group>";
-		};
-		406989E91C8CFD4900C79508 /* MiRetoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				406989EA1C8CFD4900C79508 /* MiRetoUITests.swift */,
-				406989EC1C8CFD4900C79508 /* Info.plist */,
-			);
-			path = MiRetoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +161,7 @@
 				Base,
 			);
 			mainGroup = 406989BE1C8CFD4900C79508;
-			productRefGroup = 406989C81C8CFD4900C79508 /* Products */;
+			productRefGroup = 406989BE1C8CFD4900C79508;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -228,9 +177,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406989D51C8CFD4900C79508 /* LaunchScreen.storyboard in Resources */,
-				406989D21C8CFD4900C79508 /* Assets.xcassets in Resources */,
-				406989D01C8CFD4900C79508 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406989CD1C8CFD4900C79508 /* ViewController.swift in Sources */,
-				406989CB1C8CFD4900C79508 /* AppDelegate.swift in Sources */,
+				406989CB1C8CFD4900C79508 /* juegoDeMemoria.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406989E01C8CFD4900C79508 /* MiRetoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +216,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406989EB1C8CFD4900C79508 /* MiRetoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,25 +233,6 @@
 			targetProxy = 406989E71C8CFD4900C79508 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		406989CE1C8CFD4900C79508 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				406989CF1C8CFD4900C79508 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		406989D31C8CFD4900C79508 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				406989D41C8CFD4900C79508 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		406989ED1C8CFD4900C79508 /* Debug */ = {
